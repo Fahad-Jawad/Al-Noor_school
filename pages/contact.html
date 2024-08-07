@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Al Noor Academy</title>
+
+        <link rel="icon" type="image/png" href="./assests/images/logo.jpg">
+
+<script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Quicksand:wght@300..700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assests/styles/style.css" />
+    <link rel="stylesheet" href="../assests/styles/common.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              xs: "340px",
+            },
+            colors: {
+              primary: "#086a86",
+              secondary: "#7ddb59",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div>
+      <div class="navbar navbar-bg">
+        <div class="logo">
+          <a href='../index.html'> 
+<img
+            class="w-16 h-16 rounded-full"
+            src="../assests/images/logo.jpg "
+            alt="Logo"
+          />
+</a>
+        </div>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="./aboutus.html">About Us</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >Curriculum <span class="arrow">&#9662;</span></a
+            >
+            <div class="dropdown-menu">
+              <a href="./arabic.html">Arabic</a>
+              <a href="./islamic-studies.html">Islamic Studies</a>
+              <a href="./quran.html">Quran</a>
+              <a href="./sports.html">Sports</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >School Info <span class="arrow">&#9662;</span></a
+            >
+            <div class="dropdown-menu">
+              <a href="./vision.html">Vision & Values</a>
+              <a href="./teachings.html">Teaching</a>
+                   <a href="./your-part.html">Your Part To Play</a>
+              <a href="./term-time.html">Term Time & Fees</a>
+              <a href="./policies.html">Policies</a>
+            </div>
+          </div>
+          <a href="./contact.html">Contact</a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfXZbsYGhs4Id8CWQO3IetWxGCDZsDhloryKjBRkNWyQWGvrw/viewform"
+            class="enroll-btn"
+            >Enroll Now</a
+          >
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="mobile-nav" id="mobile-nav">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <details>
+            <summary class="text-center">Curriculum</summary>
+            <div class="flex flex-col pt-4 gap-4">
+              <a href="./arabic.html">Arabic</a>
+              <a href="./islamic-studies.html">Islamic Studies</a>
+              <a href="./quran.html">Quran</a>
+              <a href="./sports.html">Sports</a>
+            </div>
+          </details>
+          <details>
+            <summary class="text-center">School Info</summary>
+            <div class="flex flex-col pt-4 gap-4">
+              <a href="./vision.html">Vision & Values</a>
+              <a href="./teachings.html">Teaching</a>
+                   <a href="./your-part.html">Your Part To Play</a>
+              <a href="./term-time.html">Term Time & Fees</a>
+              <a href="./policies.html">Policies</a>
+              </div>
+            </details>
+          <a href="./contact.html">Contact</a>
+          <a href="#" class="enroll-btn">Enroll Now</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="contact p-10 py-20 flex justify-center items-center">
+      <div class="contact-card flex flex-col-reverse lg:flex-row w-5/6">
+        <div
+          class="w-full w-1/2 contact-content flex flex-col justify-center text-white p-10 rounded-xl "
+        >
+          <h2 class="text-4xl font-bold" data-aos="zoom-out-left" data-aos-delay="0" >Contact Us</h2>
+          <p class="my-5 mb-16 text-lg lg:text-xl" data-aos="fade-up" data-aos-delay="150">
+            We're here to help! Reach out to us with any questions or concerns
+            via our website's contact form, email, or phone.
+          </p>
+          <div class="flex gap-5 items-center my-5" data-aos="fade-left" data-aos-delay="250">
+            <img
+              class="w-8 h-8"
+              src="../assests/images/icons/whatsapp.png"
+              alt=""
+            />
+            <p class="text-xl font-bold">07787852892</p>
+          </div>
+          <div class="flex gap-5 items-center my-5" data-aos="fade-left" data-aos-delay="350">
+            <img
+              class="w-8 h-8"
+              src="../assests/images/icons/mobile.png"
+              alt=""
+            />
+            <p class="text-xl font-bold">07787852892</p>
+          </div>
+          <div class="flex gap-5 items-center my-5" data-aos="fade-left" data-aos-delay="450">
+            <img
+              class="w-8 h-8"
+              src="../assests/images/icons/location.png"
+              alt=""
+            />
+            <p class="text-lg font-bold">
+              1st Floor Khizra House Lord St Bury Greater Manchester BL9 0RE
+            </p>
+          </div>
+        </div>
+        <div class="w-full w-1/2 flex justify-center">
+          <img data-aos="zoom-in-right" data-aos-delay="150" class="h-full lg:w-3/4" src="../assests/images/contact-side.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="../assests/js/script.js"></script>
+  </body>
+</html>

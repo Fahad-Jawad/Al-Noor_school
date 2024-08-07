@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Al Noor Academy</title>
+
+    <link rel="icon" type="image/png" href="../assests/images/logo.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Quicksand:wght@300..700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assests/styles/style.css" />
+    <link rel="stylesheet" href="../assests/styles/aboutStyle.css" />
+    <link rel="stylesheet" href="../assests/styles/common.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              xs: "340px",
+            },
+            colors: {
+              primary: "#086a86",
+              secondary: "#7ddb59",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div>
+      <div class="navbar navbar-bg">
+        <div class="logo">
+          <a href="../index.html">
+            <img
+              class="w-16 h-16 rounded-full"
+              src="../assests/images/logo.jpg "
+              alt="Logo"
+            />
+          </a>
+        </div>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="./aboutus.html">About Us</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >Curriculum <span class="arrow">&#9662;</span></a
+            >
+            <div class="dropdown-menu">
+              <a href="./arabic.html">Arabic</a>
+              <a href="./islamic-studies.html">Islamic Studies</a>
+              <a href="./quran.html">Quran</a>
+              <a href="./sports.html">Sports</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >School Info <span class="arrow">&#9662;</span></a
+            >
+            <div class="dropdown-menu">
+              <a href="./vision.html">Vision & Values</a>
+              <a href="./teachings.html">Teaching</a>
+              <a href="./your-part.html">Your Part To Play</a>
+              <a href="./term-time.html">Term Time & Fees</a>
+              <a href="./policies.html">Policies</a>
+            </div>
+          </div>
+          <a href="./contact.html">Contact</a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfXZbsYGhs4Id8CWQO3IetWxGCDZsDhloryKjBRkNWyQWGvrw/viewform"
+            class="enroll-btn"
+            >Enroll Now</a
+          >
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="mobile-nav" id="mobile-nav">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <details>
+            <summary class="text-center">Curriculum</summary>
+            <div class="flex flex-col pt-4 gap-4">
+              <a href="./arabic.html">Arabic</a>
+              <a href="./islamic-studies.html">Islamic Studies</a>
+              <a href="./quran.html">Quran</a>
+              <a href="./sports.html">Sports</a>
+            </div>
+          </details>
+          <details>
+            <summary class="text-center">School Info</summary>
+            <div class="flex flex-col pt-4 gap-4">
+              <a href="./vision.html">Vision & Values</a>
+              <a href="./teachings.html">Teaching</a>
+              <a href="./your-part.html">Your Part To Play</a>
+              <a href="./term-time.html">Term Time & Fees</a>
+              <a href="./policies.html">Policies</a>
+            </div>
+          </details>
+          <a href="./contact.html">Contact</a>
+          <a href="#" class="enroll-btn">Enroll Now</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="breadCrum p-10 py-20 flex flex-col items-center text-white">
+      <h2 class="text-4xl lg:text-4xl lg:text-5xl font-bold mb-5">About Us</h2>
+      <p>Home > About Us</p>
+    </div>
+
+    <div
+      class="aboutUs flex flex-col lg:flex-row items-center justify-between gap-10 p-10 py-20"
+    >
+      <div class="w-full lg:w-1/2">
+        <h2
+          data-aos="zoom-out-up"
+          class="text-3xl text-secondary small-heading"
+        >
+          Who we are
+        </h2>
+        <h3
+          data-aos="fade-left"
+          data-aos-delay="150"
+          class="text-2xl xl:text-5xl font-bold my-8 text-primary"
+        >
+          The Ideal School for Your Child's Growth and Success
+        </h3>
+        <p class="text-lg" data-aos="zoom-in-right" data-aos-delay="250">
+          Opened in September 2022, we are proud to be Bury’s first Arabic
+          language weekend school. Our mission is to create an inclusive
+          environment where children of all backgrounds and abilities can learn
+          and develop a passion for the Arabic language.
+          <br />
+          <br />
+          Our comprehensive curriculum includes basic Islamic studies alongside
+          instruction in reading, writing, and speaking Arabic. This approach
+          provides both Arabic and non-Arabic speaking children with the ability
+          to understand the Arabic used in Quranic prayers and equips them with
+          valuable language skills for the future. By fostering a deep
+          appreciation and understanding of Arabic, we aim to prepare our
+          students for a diverse and interconnected world.
+        </p>
+      </div>
+      <div class="w-full lg:w-1/2 flex justify-center">
+        <div
+          class="image-container my-5"
+          data-aos="zoom-in"
+          data-aos-delay="150"
+        >
+          <img
+            src="../assests/images/headerbg.png"
+            alt="Sample Image"
+            class="styled-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="our-mission flex flex-col lg:flex-row items-center justify-between gap-20 lg:gap-10 p-10 py-20"
+    >
+      <div class="w-full lg:w-1/2 flex justify-center">
+        <video
+          class="mx-auto rounded-xl"
+          controls
+          autoplay
+          muted
+          loop
+          data-aos="zoom-in"
+          data-aos-delay="150"
+        >
+          <source src="../assests/videos/Promo.mp4" type="video/mp4" />
+          <source src="../assests/videos/Promo.mp4" type="video/webm" />
+          <source src="../assests/videos/Promo.mp4" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="w-full lg:w-1/2">
+        <h2
+          class="text-3xl text-secondary small-heading"
+          data-aos="zoom-out-left"
+          data-aos-delay="0"
+        >
+          Our Vision and Mission
+        </h2>
+        <h3
+          class="text-2xl xl:text-5xl font-bold my-8 text-primary"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          Empowering Future Generations with Excellence in Arabic Language
+          Education
+        </h3>
+        <p class="text-lg" data-aos="flip-up" data-aos-delay="250">
+          At Al Noor, we are dedicated to delivering unparalleled education in
+          the Arabic language, ensuring that children of this generation not
+          only communicate fluently in Arabic but also deeply understand the
+          Qur'an they recite in prayer. Our mission goes beyond linguistic
+          proficiency; we aim to instill a profound appreciation and
+          comprehension of the sacred texts.
+          <br />
+          <br />
+          With the grace of Allah SWT, our devoted teaching team is committed to
+          fostering spiritual growth and nurturing a strong sense of
+          God-consciousness through the teachings of the Qur'an and Hadith.
+          <br />
+          <br />
+          At Al Noor, we celebrate diversity and inclusion by creating an
+          Islamic learning environment that empowers and engages students. Our
+          commitment to excellence ensures that each student is equipped with
+          the knowledge and values needed to thrive in an ever-changing world.
+        </p>
+      </div>
+    </div>
+
+    <div class="staff p-10 py-20">
+      <h2
+        class="text-3xl text-secondary small-heading text-center"
+        data-aos="zoom-out-up"
+      >
+        Our Dedicated Team
+      </h2>
+      <h3
+        class="text-2xl lg:text-4xl font-bold my-4 text-primary text-center"
+        data-aos="fade-right"
+        data-aos-delay="150"
+      >
+        Passionate Educators Committed to Excellence
+      </h3>
+      <div class="staff-section">
+        <div class="staff-card" data-aos="fade-up" data-aos-delay="250">
+          <img
+            src="../assests/images/femaleTeacher.png"
+            alt="Shatha Al-Salihi"
+            class="staff-image"
+          />
+          <h3>Sondos Elnahas</h3>
+          <p>Lead Arabic Teacher</p>
+        </div>
+        <div class="staff-card" data-aos="fade-down" data-aos-delay="350">
+          <img
+            src="../assests/images/femaleTeacher.png"
+            alt="Shatha Al-Salihi"
+            class="staff-image"
+          />
+          <h3>Ustaadah Saima Khan</h3>
+          <p>Islamic studies</p>
+        </div>
+        <div class="staff-card" data-aos="fade-up" data-aos-delay="450">
+          <img
+            src="../assests/images/femaleTeacher.png"
+            alt="Shatha Al-Salihi"
+            class="staff-image"
+          />
+          <h3>Ustaadah Homira Mulla</h3>
+          <p>Arabic language teacher</p>
+        </div>
+        <div class="staff-card" data-aos="fade-down" data-aos-delay="550">
+          <img
+            src="../assests/images/maleTeachernew.png"
+            alt="Ustaada Khadija Ali"
+            class="staff-image"
+          />
+          <h3>Hamza Quraishi</h3>
+          <p>Admin support and reception</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer p-10 py-16 pb-2">
+      <div class="flex flex-col xl:flex-row justify-between gap-16">
+        <div class="w-full w-1/3">
+          <h3 class="text-xl font-bold">Do you have any questions?</h3>
+          <p class="text-xl font-bold text-secondary">Call or Whatsapp us.</p>
+          <div class="flex gap-5 items-center my-5">
+            <img
+              class="w-8 h-8"
+              src="../assests/images/icons/whatsapp.png"
+              alt=""
+            />
+            <p class="text-xl font-bold">07787852892</p>
+          </div>
+          <div class="flex gap-5 items-center my-5">
+            <img
+              class="w-8 h-8"
+              src="../assests/images/icons/mobile.png"
+              alt=""
+            />
+            <p class="text-xl font-bold">07787852892</p>
+          </div>
+          <div class="flex gap-5 items-center my-5">
+            <img
+              class="w-8 h-8"
+              src="../assests/images/icons/location.png"
+              alt=""
+            />
+            <p class="text-lg font-bold">
+              1st Floor Khizra House Lord St Bury Greater Manchester BL9 0RE
+            </p>
+          </div>
+        </div>
+        <div class="w-full w-1/3 flex xl:items-center flex-col">
+          <h2 class="text-xl font-bold mb-5">Useful Links</h2>
+          <div class="flex flex-col gap-5 text-lg">
+            <a href="./aboutus.html">About Us</a>
+            <a href="./vision.html">Vision & Values</a>
+            <a href="./islamic-studies.html">Islamic Studies</a>
+            <a href="./term-time.html">Terms Time & Fee</a>
+          </div>
+        </div>
+        <div class="w-full w-1/3 flex xl:items-center flex-col">
+          <div>
+            <div class="flex gap-10">
+              <img
+                class="w-12 h-12"
+                src="../assests/images/icons/instagram.png"
+                alt=""
+              />
+              <img
+                class="w-12 h-12"
+                src="../assests/images/icons/facebook.png"
+                alt=""
+              />
+            </div>
+
+            <div class="my-5">
+              <h2 class="text-xl text-secondary text-semibold">Sunday</h2>
+              <p class="text-xl font-bold">9:15 AM – 01:30 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full flex justify-center mt-4">
+        <p class="text-lg">
+          <span class="font-bold">Copyright </span> © 2024
+          <script>
+            new Date().getFullYear() > 2024 &&
+              document.write("- " + new Date().getFullYear());
+          </script>
+          . All Rights Reserved.
+        </p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="../assests/js/script.js"></script>
+  </body>
+</html>

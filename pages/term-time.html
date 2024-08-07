@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Term Time & Fees | Al Noor Academy</title>
+
+    <link rel="icon" type="image/png" href="../assests/images/logo.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Quicksand:wght@300..700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assests/styles/style.css" />
+    <link rel="stylesheet" href="../assests/styles/common.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              xs: "340px",
+            },
+            colors: {
+              primary: "#086a86",
+              secondary: "#7ddb59",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div>
+      <div class="navbar navbar-bg">
+        <div class="logo">
+          <img
+            class="w-16 h-16 rounded-full"
+            src="../assests/images/logo.jpg "
+            alt="Logo"
+          />
+        </div>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="./aboutus.html">About Us</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >Curriculum <span class="arrow">&#9662;</span></a
+            >
+            <div class="dropdown-menu">
+              <a href="./arabic.html">Arabic</a>
+              <a href="./islamic-studies.html">Islamic Studies</a>
+              <a href="./quran.html">Quran</a>
+              <a href="./sports.html">Sports</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle"
+              >School Info <span class="arrow">&#9662;</span></a
+            >
+            <div class="dropdown-menu">
+              <a href="./vision.html">Vision & Values</a>
+              <a href="./teachings.html">Teaching</a>
+              <a href="./your-part.html">Your Part To Play</a>
+              <a href="./term-time.html">Term Time & Fees</a>
+            </div>
+          </div>
+          <a href="./contact.html">Contact</a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfXZbsYGhs4Id8CWQO3IetWxGCDZsDhloryKjBRkNWyQWGvrw/viewform"
+            class="enroll-btn"
+            >Enroll Now</a
+          >
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="mobile-nav" id="mobile-nav">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="./aboutus.html">About</a>
+          <details>
+            <summary class="text-center">Curriculum</summary>
+            <div class="flex flex-col pt-4 gap-4">
+              <a href="./arabic.html">Arabic</a>
+              <a href="./islamic-studies.html">Islamic Studies</a>
+              <a href="./quran.html">Quran</a>
+              <a href="./sports.html">Sports</a>
+            </div>
+          </details>
+          <details>
+            <summary class="text-center">School Info</summary>
+            <div class="flex flex-col pt-4 gap-4">
+              <a href="./vision.html">Vision & Values</a>
+              <a href="./teachings.html">Teaching</a>
+              <a href="./your-part.html">Your Part To Play</a>
+              <a href="./term-time.html">Term Time & Fees</a>
+            </div>
+          </details>
+          <a href="./contact.html">Contact</a>
+          <a href="#" class="enroll-btn">Enroll Now</a>
+        </nav>
+      </div>
+    </div>
+    <div class="breadCrum p-10 py-20 flex flex-col items-center text-white">
+      <h2 class="text-4xl lg:text-5xl font-bold mb-5">Term Time & Fees</h2>
+      <p>Home > Term Time & Fees</p>
+    </div>
+
+    <div class="container mx-auto px-4 py-20">
+      <h2 class="text-4xl lg:text-5xl font-bold mb-5 text-center" data-aos="zoom-out-left" data-aos-delay="0">Our School Fees</h2>
+      <p class="text-center text-md lg:text-xl w-full lg:w-2/3 mx-auto" data-aos="flip-up" data-aos-delay="150">
+        Al-Noor is a non-profit organization committed to offering our services
+        at the minimum possible cost. We require all payments to be made at the
+        start of each chosen period, whether it is the 1st month, the 1st day of
+        the term, or the 1st day of the school year. To streamline the payment
+        process, we prefer that payments are set up via direct debit, though we
+        also accept cash. Your support and adherence to these guidelines help us
+        continue our mission of providing accessible services to our community.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-16">
+        <!-- Monthly Card -->
+        <div
+        data-aos="fade-down" data-aos-delay="250"
+          class="relative bg-[#086b860c] p-6 rounded-lg shadow-lg text-center h-64 flex flex-col justify-center items-center"
+        >
+          <div class="flex items-baseline justify-center">
+            <span class="text-green-600 text-3xl">$</span>
+            <span class="text-7xl font-bold">25</span>
+          </div>
+          <div class="text-md text-gray-500 mb-4">per student</div>
+          <div class="mt-6 text-sm font-bold">Monthly</div>
+        </div>
+
+        <!-- Quarterly/Term Card -->
+        <div
+        data-aos="fade-down" data-aos-delay="350"
+          class="relative overflow-hidden bg-gradient-to-b from-[#086a86] to-[#043843] text-white p-6 rounded-lg shadow-lg text-center h-64 flex flex-col justify-center items-center recommended"
+        >
+          <div class="flex items-baseline justify-center">
+            <span class="text-white text-3xl">$</span>
+            <span class="text-7xl font-bold">100</span>
+          </div>
+          <div class="text-md text-gray-200 mb-4">per student</div>
+          <div class="mt-6 text-sm font-bold">Quarterly/Term</div>
+        </div>
+
+        <!-- Yearly Card -->
+        <div
+        data-aos="fade-down" data-aos-delay="450"
+          class="relative bg-[#086b860c] p-6 rounded-lg shadow-lg text-center h-64 flex flex-col justify-center items-center"
+        >
+          <div class="flex items-baseline justify-center">
+            <span class="text-green-600 text-3xl">$</span>
+            <span class="text-7xl font-bold">300</span>
+          </div>
+          <div class="text-md text-gray-500 mb-4">per student</div>
+          <div class="mt-6 text-sm font-bold">Yearly</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <img class="w-full lg:w-2/3" src="../assests/images/terms.jpg" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="../assests/js/script.js"></script>
+  </body>
+</html>

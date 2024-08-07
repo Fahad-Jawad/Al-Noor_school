@@ -1,0 +1,96 @@
+:root {
+    --primary: #086a86;
+    --secondary-color: #7ddb59;
+  }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    width: 50%;
+    height: 90%;
+    background: linear-gradient(to right, #0a7e9c, #086a86);
+    border-radius: 27% 73% 28% 72% / 67% 28% 72% 33%   ;
+    z-index: -1;
+    -webkit-border-radius: 27% 73% 28% 72% / 67% 28% 72% 33%   ;
+    -moz-border-radius: 27% 73% 28% 72% / 67% 28% 72% 33%   ;
+    -ms-border-radius: 27% 73% 28% 72% / 67% 28% 72% 33%   ;
+    -o-border-radius: 27% 73% 28% 72% / 67% 28% 72% 33%   ;
+    margin: 0 auto;
+}
+  
+  .styled-image {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 27% 73% 28% 72% / 67% 28% 72% 33%    ;
+    display: block;
+  }
+  
+
+ 
+  .video-wrapper {
+    width: 100%;
+    max-width: 560px; /* Set a max-width for responsiveness */
+    margin: 0 auto; /* Center the video container */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Ensure the border radius is applied */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Optional: adds a shadow for effect */
+  }
+  
+  .video-wrapper iframe {
+    width: 100%;
+    height: 400px; /* 16:9 aspect ratio height */
+    border: none;
+  }
+  
+
+
+  .staff-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .staff-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+  }
+  
+  .staff-card img {
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  
+  .staff-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    color: #2c3e50;
+    font-weight: 900;
+  }
+  
+  .staff-card p {
+    margin: 0;
+    color: #7f8c8d;
+  }
+  
+  .staff-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
